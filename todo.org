@@ -1,0 +1,17 @@
+* TODO editor UI
+* roadmap
+** proper UI
+** DONE test
+** deployment system
+** docs (usage and interfaces)
+** rethink book-oriented schema
+** at least one key thing I've forgotten
+** work out data model
+** reconcile partners' data models
+* UI plan
+** establish JS transpile / webpack phase, servable from bottle
+** get react into that mix
+** get react to read
+** get react to write
+
+

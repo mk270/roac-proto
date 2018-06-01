@@ -1,0 +1,31 @@
+{
+  "Header": {
+    "FromCompany": "Open Book Publishers CIC Ltd",
+    "FromPerson": "Bianca Gualandi",
+    "FromEmail": "bianca@openbookpublishers.com",
+    "SentDate": "20180515"
+  },
+  "Product": {
+    "RecordReference": "doi.10.11647/OBP.0002",
+    "NotificationType": "03",
+    "ProductIdentifier": {
+      "ProductIDType": "15",
+      "IDValue": "9781906924034"
+    },
+    "ProductForm": "DG",
+    "EpubType": "029",
+    "Title": {
+      "TitleType": "01",
+      "TitleText": "The Alerting Eye",
+      "Subtitle": "Contemporary International Cinema"
+    },
+    "Contributor": "TBD",
+    "NumberOfPages": 344,
+    "Subject": {
+      "SubjectSchemeIdentifier": "10",
+      "SubjectCode": "PER004030"
+    }
+  },
+  "uuid": "efbb7ea6-4a65-463f-86ea-a170b9bf85b2"
+}
+

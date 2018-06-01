@@ -1,0 +1,31 @@
+{
+  "Header": {
+    "FromCompany": "Open Book Publishers CIC Ltd",
+    "FromPerson": "Bianca Gualandi",
+    "FromEmail": "bianca@openbookpublishers.com",
+    "SentDate": "20180515"
+  },
+  "Product": {
+    "RecordReference": "doi.10.11647/OBP.0003",
+    "NotificationType": "03",
+    "ProductIdentifier": {
+      "ProductIDType": "15",
+      "IDValue": "9781906924065"
+    },
+    "ProductForm": "DG",
+    "EpubType": "029",
+    "Title": {
+      "TitleType": "01",
+      "TitleText": "Brownshirt Princess",
+      "Subtitle": "A Study of the 'Nazi Conscience'"
+    },
+    "Contributor": "TBD",
+    "NumberOfPages": 202,
+    "Subject": {
+      "SubjectSchemeIdentifier": "10",
+      "SubjectCode": "HIS014000"
+    }
+  },
+  "uuid": "48733e00-007b-4907-89b0-5c580f208572"
+}
+
