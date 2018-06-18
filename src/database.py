@@ -4,10 +4,10 @@ import psycopg2
 import psycopg2.extras
 from bookdata import BookData
 
-HOST=os.environ['POSTGRES_HOST']
-USER=os.environ['POSTGRES_USER']
-PWD=os.environ['POSTGRES_PASSWORD']
-DB=os.environ['POSTGRES_DB']
+HOST = os.environ['POSTGRES_HOST']
+USER = os.environ['POSTGRES_USER']
+PWD = os.environ['POSTGRES_PASSWORD']
+DB = os.environ['POSTGRES_DB']
 
 DSN = "dbname="+DB+" host="+HOST+" user="+USER+" password="+PWD
 
