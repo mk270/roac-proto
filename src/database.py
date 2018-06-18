@@ -1,9 +1,14 @@
+import os
 import logging
 import psycopg2
 import psycopg2.extras
 from bookdata import BookData
 
-DSN = "dbname=roac"
+HOST = os.environ['POSTGRES_HOST']
+USER = os.environ['POSTGRES_USER']
+PWD = os.environ['POSTGRES_PASSWORD']
+DB = os.environ['POSTGRES_DB']
+DSN = "dbname=%s host=%s user=%s password=%s" % (DB, HOST, USER, PWD)
 
 def clear_db():
     with psycopg2.connect(DSN) as conn:

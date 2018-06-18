@@ -1,0 +1,26 @@
+version: "3.5"
+
+services:
+  roac_db:
+    build: ./db
+    container_name: "roac_db"
+    restart: unless-stopped
+    volumes:
+      - db:/var/lib/postgresql/data
+      - /etc/localtime:/etc/localtime:ro
+    env_file:
+      - db.env
+
+  roac_app:
+    build: ./
+    container_name: "roac_app"
+    restart: unless-stopped
+    environment:
+      - POSTGRES_HOST=roac_db
+    env_file:
+      - db.env
+    depends_on:
+      - roac_db
+
+volumes:
+  db:
