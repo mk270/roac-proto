@@ -8,8 +8,7 @@ HOST = os.environ['POSTGRES_HOST']
 USER = os.environ['POSTGRES_USER']
 PWD = os.environ['POSTGRES_PASSWORD']
 DB = os.environ['POSTGRES_DB']
-
-DSN = "dbname="+DB+" host="+HOST+" user="+USER+" password="+PWD
+DSN = "dbname=%s host=%s user=%s password=%s" % (DB, HOST, USER, PWD)
 
 def clear_db():
     with psycopg2.connect(DSN) as conn:
